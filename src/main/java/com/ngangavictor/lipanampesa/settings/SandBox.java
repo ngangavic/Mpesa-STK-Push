@@ -10,14 +10,6 @@ public class SandBox {
     public static String stk_push_url;
     public static String c2bSimulation_url;
 
-//    public static final String access_token_url = "https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials";
-//    public static final String consumerKey="hIxOVauUcaEKboAg6kn9misGEq8KSHbS";
-//    public static final String consumerSecret="pVI6h0pdMwYytcti";
-//    public static final String businessShortCode = "174379";
-//    public static final String passKey="bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
-//    public static final  String stk_push_url="https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest";
-
-
     public static String getAccess_token_url() {
         return access_token_url;
     }
